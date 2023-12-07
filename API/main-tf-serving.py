@@ -6,8 +6,21 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+origins = [
+    "http://localhost",
+    "http://localhost:3000",
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins = ["*"], # Use origins for filter the source of requests
+    allow_credentials = True,
+    allow_methods = ["*"],
+    allow_headers = ["*"],
+)
 
 endpoint = "http://localhost:8501/v1/models/plant_disease_detection_model:predict"
 
