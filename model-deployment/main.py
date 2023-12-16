@@ -8,8 +8,6 @@ interpreter = None
 input_index = None
 output_index = None
 
-# class_names = ["Early Blight", "Late Blight", "Healthy"]
-
 class_names = ['Apple___Apple_scab',
  'Apple___Black_rot',
  'Apple___Cedar_apple_rust',
