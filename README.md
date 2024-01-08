@@ -1,6 +1,8 @@
-    # plante-disease-detection
+# plante-disease-detection
 
-[![Watch the demo video](demo\Recording_demo_app_final.mp4)](demo\Recording_demo_app_final.mp4)
+
+Uploading Recording_demo_app_final.mp4…
+
 
 
 1. Install Python packages
