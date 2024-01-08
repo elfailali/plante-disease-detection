@@ -1,6 +1,6 @@
     # plante-disease-detection
 
-[![Watch the demo video](\demo\Recording_demo_app_final.mp4)](\demo\Recording_demo_app_final.mp4)
+[![Watch the demo video](demo\Recording_demo_app_final.mp4)](demo\Recording_demo_app_final.mp4)
 
 
 1. Install Python packages
@@ -34,6 +34,10 @@ uvicorn main:app --reload --host 0.0.0.0
 ```
 
 - Your API is now running at `0.0.0.0:8000` or localhost:8000
+
+#### hint:  run tf serving image in docker
+docker run -t --rm -p 8501:8501 -v C:\Users\Honor\Documents\Projects\Plant-disease-detection:/Plant-disease-detection tensorflow/serving --rest_api_port=8501 --model_config_file=/Plant-disease-detection/models.config
+
 
 
 ## Run the backend
