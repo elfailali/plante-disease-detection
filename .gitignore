@@ -1,0 +1,10 @@
+Saved_Models/
+frontend/
+demo/
+react-native-app/
+Local_models/
+data/
+
+# backend/node_modules/
+
+.env
