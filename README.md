@@ -21,6 +21,7 @@ yarn start
 ```
 
 - Copy `.env.example` as `.env`.
+  --> Make sure that the API is working (in this codebase contain the executed API in localhost but in my example I used my deployed API To get the disease)
 - Change API url in `.env`.
 
 ### Using FastAPI
