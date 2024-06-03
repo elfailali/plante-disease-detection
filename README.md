@@ -1,8 +1,7 @@
 # plante-disease-detection
 
 
-Uploading Recording_demo_app_final.mp4…
-
+Uploading Recording_demo_app_final: https://drive.google.com/file/d/1z1fZGnkzpgqQJHY7QO2pUilpS6C01d3n/view?usp=sharing
 
 
 1. Install Python packages
